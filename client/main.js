@@ -30,8 +30,8 @@ function render(data){
     document.getElementById('messages').innerHTML = html;
   }
 }
-
-
+///home/administrativo/Documentos/j/javascript/socket/client/main.js
+//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
 
 
 function addMessage(e){
