@@ -1,4 +1,4 @@
-var socket = io.connect('172.20.2.51:6677/', {'forceNew': true});
+var socket = io.connect('localhost:6677/', {'forceNew': true});
 
 socket.on('messages',function(data){
   if (data) {
